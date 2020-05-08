@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-	/*font-family: Public Sans;*/
+	font-family: 'Public Sans', sans-serif;
 }
 .menu-holder{
 	background: #fff;
@@ -36,17 +36,19 @@ nav.navbar{
 }
 .btn-invite:hover{
 	color: white;
+	background: linear-gradient(to right, hsl(135, 65%,75%), hsl(191,70%,55%));
 }
 .btn-invite-2{
 	background: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
 	color: white;
 	border-radius: 50px;
-	width: 40%;
+	width: 50%;
 	font-weight: bold;
 	margin-top: 5%;
 }
 .btn-invite-2:hover{
 	color: white;
+	background: linear-gradient(to right, hsl(135, 65%,75%), hsl(191,70%,55%));
 }
 .left-banner{
 	height: 80vh;
@@ -103,6 +105,13 @@ nav.navbar{
 }
 .card-text{
 	margin-top: 4%;
+	font-size: 13px;
+}
+.card{
+	min-height: 25em;
+}
+.card .text-muted{
+	font-size: 12px;
 }
 .card-title{
 	color: black;
@@ -137,6 +146,12 @@ nav.navbar{
 	margin-top: 10%;
 }
 @media(max-width: 576px){
+	h1{
+		font-size: 36px;
+	}
+	h2{
+		font-size: 32px;
+	}
 	.navbar-toggler{
 		border: none !important;
 	}
@@ -157,7 +172,7 @@ nav.navbar{
 	}
 	.right-banner img{
 		position: absolute;
-		top: -10%;
+		top: 10%;
 		left: 50%;
 		transform: translateX(-50%);
 	}
