@@ -150,11 +150,14 @@ nav.navbar{
 		background-image: url("../img/bg-intro-desktop.svg");
 		/*height: 80vh;*/
 		background-size: 120%;
-		background-position:-10% -20%;
+		background-position:-20% -20%;
 		background-repeat: no-repeat;
 		background-origin: top right;
 		width: 100%;
 	}
+	.btn-invite{
+	width: 100%;
+}
 }
 @media(max-width: 576px){
 	h1{
