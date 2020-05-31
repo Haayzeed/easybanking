@@ -145,6 +145,17 @@ nav.navbar{
 .footer-four p{
 	margin-top: 10%;
 }
+@media (max-width: 768px){
+	.right-banner{
+		background-image: url("../img/bg-intro-desktop.svg");
+		/*height: 80vh;*/
+		background-size: 120%;
+		background-position: 10% 0%;
+		background-repeat: no-repeat;
+		background-origin: top right;
+		width: 100%;
+	}
+}
 @media(max-width: 576px){
 	h1{
 		font-size: 36px;
